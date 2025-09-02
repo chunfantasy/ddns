@@ -2,3 +2,5 @@ input.json
 output.json
 current_ip.txt
 target
+
+.DS_Store
