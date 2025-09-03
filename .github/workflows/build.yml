@@ -17,3 +17,5 @@ jobs:
         run: rustup override set nightly
       - name: Output rust version for educational purposes
         run: rustup --version
+      - name: Build binaries
+        run: cargo build -r
