@@ -19,3 +19,9 @@ jobs:
         run: rustup --version
       - name: Build binaries
         run: cargo build -r
+
+      - name: Upload release artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: ddns
+          path: target/release/ddns
